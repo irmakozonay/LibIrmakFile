@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   'LibIrmakFile the longest description.'
                        DESC
 
-  s.homepage         = 'https://github.com/irmakozonay/LibIrmakFile'
+  s.homepage         = 'https://github.com/irmakozonay'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'irmakozonay' => 'irmakoz@msn.com' }
-  s.source           = { :git => 'https://github.com/irmakozonay/LibIrmakFile/blob/main/LibIrmakFile.framework.zip', :tag => s.version.to_s }
+  s.source           = { :http => 'https://github.com/irmakozonay/LibIrmakFile/blob/main/LibIrmakFile.framework.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
