@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LibIrmakFile'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'LibIrmakFile the description.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'irmakozonay' => 'irmakoz@msn.com' }
-  s.source           = { :http => 'https://github.com/irmakozonay/LibIrmakFile/blob/main/LibIrmakFile.framework.zip' }
+  s.source           = { :http => 'https://github.com/irmakozonay/LibIrmakFile/blob/main/Example/LibIrmakFile.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
