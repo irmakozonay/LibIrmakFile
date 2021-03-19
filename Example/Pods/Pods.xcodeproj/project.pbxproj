@@ -10,7 +10,6 @@
 		18520B5F0596EEF75D51A2B15E2A35DF /* Pods-LibIrmakFile_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A77B567F3E0B33DB988F36C3B12DF387 /* Pods-LibIrmakFile_Tests-dummy.m */; };
 		1AA70FA6DB444B7626D7C9DE9569AD18 /* Pods-LibIrmakFile_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BED92837ACDC5BB716644C82B13965A /* Pods-LibIrmakFile_Example-dummy.m */; };
 		479742D489D2462E521AD59B14F58E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4FB4F41C986AE6C5D0879CA0D38927FF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D70CC04F4D24FFFB573F3021B9D16B3 /* ReplaceMe.swift */; };
 		553094C08BA5A53F77A8604D61DB2862 /* LibIrmakFile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDA4CEF71DFC411F5E4EEC5227A28FF /* LibIrmakFile-dummy.m */; };
 		A81F61BB106E1AE75F6625998BD47757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C328BDCF84471BFDD84301C7F1B1A22E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -59,13 +58,12 @@
 		77E010C2C24AA3BFA23F4BD6FBBF00C8 /* Pods_LibIrmakFile_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibIrmakFile_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BED92837ACDC5BB716644C82B13965A /* Pods-LibIrmakFile_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LibIrmakFile_Example-dummy.m"; sourceTree = "<group>"; };
 		89F711749795B5B2DA6483973676335B /* LibIrmakFile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibIrmakFile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D70CC04F4D24FFFB573F3021B9D16B3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LibIrmakFile/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		9156BB576872269A3DCDEE565AD6C525 /* LibIrmakFile-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibIrmakFile-prefix.pch"; sourceTree = "<group>"; };
 		95C5DD2BF8928A8E8EC1413BF5FCFC63 /* LibIrmakFile-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LibIrmakFile-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A77B567F3E0B33DB988F36C3B12DF387 /* Pods-LibIrmakFile_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LibIrmakFile_Tests-dummy.m"; sourceTree = "<group>"; };
 		A807DB286B0660790034957891FA1268 /* Pods-LibIrmakFile_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LibIrmakFile_Example.modulemap"; sourceTree = "<group>"; };
-		AC57BA96A0601C8D054F98F5736D84C6 /* LibIrmakFile.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LibIrmakFile.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC57BA96A0601C8D054F98F5736D84C6 /* LibIrmakFile.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LibIrmakFile.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		AF0C11D3CE1249555EBE46F3057A66FF /* LibIrmakFile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LibIrmakFile.modulemap; sourceTree = "<group>"; };
 		B19E323EBABF5A543E88707BE5BA2F2F /* LibIrmakFile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibIrmakFile-umbrella.h"; sourceTree = "<group>"; };
 		BDDA4CEF71DFC411F5E4EEC5227A28FF /* LibIrmakFile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LibIrmakFile-dummy.m"; sourceTree = "<group>"; };
@@ -131,7 +129,6 @@
 		4DC19CB45ECCC9BDAB638DF8247F9CCD /* LibIrmakFile */ = {
 			isa = PBXGroup;
 			children = (
-				8D70CC04F4D24FFFB573F3021B9D16B3 /* ReplaceMe.swift */,
 				7DE8E48E575088077E622A48812F3C82 /* Pod */,
 				C240FC7196D2BA0E5367FD4075EDF2F4 /* Support Files */,
 				FD894C422603DD7200A6A8FF /* Logger.swift */,
@@ -388,7 +385,6 @@
 			files = (
 				553094C08BA5A53F77A8604D61DB2862 /* LibIrmakFile-dummy.m in Sources */,
 				FD894C432603DD7200A6A8FF /* Logger.swift in Sources */,
-				4FB4F41C986AE6C5D0879CA0D38927FF /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
