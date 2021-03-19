@@ -32,7 +32,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.swift_version = '4.0'
 
-  s.source_files = 'LibIrmakFile/Classes/**/*'
+  s.source_files = 'LibIrmakFile.zip'
+#  s.exclude_files = 'LibIrmakFile/Classes/**/*'
   
   # s.resource_bundles = {
   #   'LibIrmakFile' => ['LibIrmakFile/Assets/*.png']
