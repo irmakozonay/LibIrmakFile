@@ -11,11 +11,17 @@ import LibIrmakFile
 
 class ViewController: UIViewController {
 
+    let logger = Logger()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let logger = Logger()
         logger.printLog()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    @IBAction func go(_ sender: UIButton){
+        logger.downloadUSDZFile(finished: {})
     }
 
     override func didReceiveMemoryWarning() {
