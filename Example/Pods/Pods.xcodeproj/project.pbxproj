@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18520B5F0596EEF75D51A2B15E2A35DF /* Pods-LibIrmakFile_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A77B567F3E0B33DB988F36C3B12DF387 /* Pods-LibIrmakFile_Tests-dummy.m */; };
+		1AA70FA6DB444B7626D7C9DE9569AD18 /* Pods-LibIrmakFile_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BED92837ACDC5BB716644C82B13965A /* Pods-LibIrmakFile_Example-dummy.m */; };
+		479742D489D2462E521AD59B14F58E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4FB4F41C986AE6C5D0879CA0D38927FF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D70CC04F4D24FFFB573F3021B9D16B3 /* ReplaceMe.swift */; };
+		553094C08BA5A53F77A8604D61DB2862 /* LibIrmakFile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDA4CEF71DFC411F5E4EEC5227A28FF /* LibIrmakFile-dummy.m */; };
+		A81F61BB106E1AE75F6625998BD47757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C328BDCF84471BFDD84301C7F1B1A22E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C579092094A6D60438A894CE18AD7B5B /* LibIrmakFile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B19E323EBABF5A543E88707BE5BA2F2F /* LibIrmakFile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0A2C125808FCB630DB5102CC54D6450 /* Pods-LibIrmakFile_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B952608387CB17C9C3CF75E8CDA8EDB /* Pods-LibIrmakFile_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7C61854F705F4088E1F97CC42CB1282 /* Pods-LibIrmakFile_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2EED1773041099447E8684BA56F2527 /* Pods-LibIrmakFile_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD894C432603DD7200A6A8FF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD894C422603DD7200A6A8FF /* Logger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D5F2F6F210EABC16A291362ADE444C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3812E44D51254337362C80852E0DB3;
+			remoteInfo = LibIrmakFile;
+		};
+		F38CA11DC163F48BC3A65B54055A14CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3BAB4FD11641B31A51C64639AC5991;
+			remoteInfo = "Pods-LibIrmakFile_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FC47E38B5340A34A39B1A167F7F01C /* Pods-LibIrmakFile_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibIrmakFile_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0961D8B31317548CF7A868B564928A57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0A4ABFDB66C3F47F4ACFE9FF9D2FCC7B /* Pods-LibIrmakFile_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibIrmakFile_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B8518575E90D974EF9EC694680EC9EF /* Pods-LibIrmakFile_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibIrmakFile_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B952608387CB17C9C3CF75E8CDA8EDB /* Pods-LibIrmakFile_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LibIrmakFile_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0BC8D44CE66544DAA5BB0CA843426275 /* Pods-LibIrmakFile_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LibIrmakFile_Tests.modulemap"; sourceTree = "<group>"; };
+		0E0D4A5C8B8753AE20EF20DEB4FAC816 /* Pods-LibIrmakFile_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LibIrmakFile_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0F689E73706C0603A037377DD5FC8816 /* Pods-LibIrmakFile_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibIrmakFile_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		12ECE38759CFC86034AD132CB7387F83 /* Pods-LibIrmakFile_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibIrmakFile_Example-Info.plist"; sourceTree = "<group>"; };
+		199AA173888680FA013AB622EE12081D /* Pods-LibIrmakFile_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibIrmakFile_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1D0542A07D6D46C5ED19E146FE8EF990 /* Pods-LibIrmakFile_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LibIrmakFile_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B735F430D90FCBDC94D09C957AB8A97 /* Pods-LibIrmakFile_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibIrmakFile_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CDE24D8431851AFC0CE1AAA29D01C1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		50C3C4B87E78ED79A34C1D64E4E951D8 /* Pods-LibIrmakFile_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibIrmakFile_Tests-Info.plist"; sourceTree = "<group>"; };
+		580CEF92E25629309F2C0D539359551C /* Pods_LibIrmakFile_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibIrmakFile_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B61ABA139D6AC2F36CC6E55512EE6C1 /* LibIrmakFile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LibIrmakFile.release.xcconfig; sourceTree = "<group>"; };
+		6D39FFAFD4E114B236F655087F26B53E /* LibIrmakFile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LibIrmakFile.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77E010C2C24AA3BFA23F4BD6FBBF00C8 /* Pods_LibIrmakFile_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibIrmakFile_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BED92837ACDC5BB716644C82B13965A /* Pods-LibIrmakFile_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LibIrmakFile_Example-dummy.m"; sourceTree = "<group>"; };
+		89F711749795B5B2DA6483973676335B /* LibIrmakFile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibIrmakFile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D70CC04F4D24FFFB573F3021B9D16B3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = LibIrmakFile/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9156BB576872269A3DCDEE565AD6C525 /* LibIrmakFile-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibIrmakFile-prefix.pch"; sourceTree = "<group>"; };
+		95C5DD2BF8928A8E8EC1413BF5FCFC63 /* LibIrmakFile-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LibIrmakFile-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A77B567F3E0B33DB988F36C3B12DF387 /* Pods-LibIrmakFile_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LibIrmakFile_Tests-dummy.m"; sourceTree = "<group>"; };
+		A807DB286B0660790034957891FA1268 /* Pods-LibIrmakFile_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LibIrmakFile_Example.modulemap"; sourceTree = "<group>"; };
+		AC57BA96A0601C8D054F98F5736D84C6 /* LibIrmakFile.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LibIrmakFile.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF0C11D3CE1249555EBE46F3057A66FF /* LibIrmakFile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LibIrmakFile.modulemap; sourceTree = "<group>"; };
+		B19E323EBABF5A543E88707BE5BA2F2F /* LibIrmakFile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibIrmakFile-umbrella.h"; sourceTree = "<group>"; };
+		BDDA4CEF71DFC411F5E4EEC5227A28FF /* LibIrmakFile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LibIrmakFile-dummy.m"; sourceTree = "<group>"; };
+		C9E5E9D7A657A2F426C4184822B8D4ED /* Pods-LibIrmakFile_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LibIrmakFile_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2EED1773041099447E8684BA56F2527 /* Pods-LibIrmakFile_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LibIrmakFile_Example-umbrella.h"; sourceTree = "<group>"; };
+		FD894C422603DD7200A6A8FF /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = LibIrmakFile/Classes/Logger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BD1EB1E4461F1A727B36EE9FDEAD127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C328BDCF84471BFDD84301C7F1B1A22E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F4FE9461ADE6EE46396B4D1C3A3D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479742D489D2462E521AD59B14F58E0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AB3B9DBBCAA306F0D723F5408AE8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81F61BB106E1AE75F6625998BD47757 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC99BEDF4DF372AEB3B8A75B338E757 /* Pods-LibIrmakFile_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0BC8D44CE66544DAA5BB0CA843426275 /* Pods-LibIrmakFile_Tests.modulemap */,
+				C9E5E9D7A657A2F426C4184822B8D4ED /* Pods-LibIrmakFile_Tests-acknowledgements.markdown */,
+				0B8518575E90D974EF9EC694680EC9EF /* Pods-LibIrmakFile_Tests-acknowledgements.plist */,
+				A77B567F3E0B33DB988F36C3B12DF387 /* Pods-LibIrmakFile_Tests-dummy.m */,
+				50C3C4B87E78ED79A34C1D64E4E951D8 /* Pods-LibIrmakFile_Tests-Info.plist */,
+				0B952608387CB17C9C3CF75E8CDA8EDB /* Pods-LibIrmakFile_Tests-umbrella.h */,
+				2B735F430D90FCBDC94D09C957AB8A97 /* Pods-LibIrmakFile_Tests.debug.xcconfig */,
+				199AA173888680FA013AB622EE12081D /* Pods-LibIrmakFile_Tests.release.xcconfig */,
+			);
+			name = "Pods-LibIrmakFile_Tests";
+			path = "Target Support Files/Pods-LibIrmakFile_Tests";
+			sourceTree = "<group>";
+		};
+		2C0BCBDFC3F5C910EC77B9B62433F7CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89F711749795B5B2DA6483973676335B /* LibIrmakFile.framework */,
+				580CEF92E25629309F2C0D539359551C /* Pods_LibIrmakFile_Example.framework */,
+				77E010C2C24AA3BFA23F4BD6FBBF00C8 /* Pods_LibIrmakFile_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC19CB45ECCC9BDAB638DF8247F9CCD /* LibIrmakFile */ = {
+			isa = PBXGroup;
+			children = (
+				8D70CC04F4D24FFFB573F3021B9D16B3 /* ReplaceMe.swift */,
+				7DE8E48E575088077E622A48812F3C82 /* Pod */,
+				C240FC7196D2BA0E5367FD4075EDF2F4 /* Support Files */,
+				FD894C422603DD7200A6A8FF /* Logger.swift */,
+			);
+			name = LibIrmakFile;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F84A71FB9262ED7F7055B8D25045142 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DC19CB45ECCC9BDAB638DF8247F9CCD /* LibIrmakFile */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DE8E48E575088077E622A48812F3C82 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AC57BA96A0601C8D054F98F5736D84C6 /* LibIrmakFile.podspec */,
+				0961D8B31317548CF7A868B564928A57 /* LICENSE */,
+				4CDE24D8431851AFC0CE1AAA29D01C1B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BFE4B08577D4CCD9C719249AFEB1DD94 /* Pods-LibIrmakFile_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A807DB286B0660790034957891FA1268 /* Pods-LibIrmakFile_Example.modulemap */,
+				1D0542A07D6D46C5ED19E146FE8EF990 /* Pods-LibIrmakFile_Example-acknowledgements.markdown */,
+				0A4ABFDB66C3F47F4ACFE9FF9D2FCC7B /* Pods-LibIrmakFile_Example-acknowledgements.plist */,
+				7BED92837ACDC5BB716644C82B13965A /* Pods-LibIrmakFile_Example-dummy.m */,
+				0E0D4A5C8B8753AE20EF20DEB4FAC816 /* Pods-LibIrmakFile_Example-frameworks.sh */,
+				12ECE38759CFC86034AD132CB7387F83 /* Pods-LibIrmakFile_Example-Info.plist */,
+				E2EED1773041099447E8684BA56F2527 /* Pods-LibIrmakFile_Example-umbrella.h */,
+				0F689E73706C0603A037377DD5FC8816 /* Pods-LibIrmakFile_Example.debug.xcconfig */,
+				02FC47E38B5340A34A39B1A167F7F01C /* Pods-LibIrmakFile_Example.release.xcconfig */,
+			);
+			name = "Pods-LibIrmakFile_Example";
+			path = "Target Support Files/Pods-LibIrmakFile_Example";
+			sourceTree = "<group>";
+		};
+		C240FC7196D2BA0E5367FD4075EDF2F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C11D3CE1249555EBE46F3057A66FF /* LibIrmakFile.modulemap */,
+				BDDA4CEF71DFC411F5E4EEC5227A28FF /* LibIrmakFile-dummy.m */,
+				95C5DD2BF8928A8E8EC1413BF5FCFC63 /* LibIrmakFile-Info.plist */,
+				9156BB576872269A3DCDEE565AD6C525 /* LibIrmakFile-prefix.pch */,
+				B19E323EBABF5A543E88707BE5BA2F2F /* LibIrmakFile-umbrella.h */,
+				6D39FFAFD4E114B236F655087F26B53E /* LibIrmakFile.debug.xcconfig */,
+				5B61ABA139D6AC2F36CC6E55512EE6C1 /* LibIrmakFile.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LibIrmakFile";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5F84A71FB9262ED7F7055B8D25045142 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2C0BCBDFC3F5C910EC77B9B62433F7CF /* Products */,
+				D77BF078A9AF30739311CA4BA381818E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D77BF078A9AF30739311CA4BA381818E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFE4B08577D4CCD9C719249AFEB1DD94 /* Pods-LibIrmakFile_Example */,
+				0FC99BEDF4DF372AEB3B8A75B338E757 /* Pods-LibIrmakFile_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		149E35ECF86971A2C7817842C0FB8FA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A2C125808FCB630DB5102CC54D6450 /* Pods-LibIrmakFile_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7963927DE3C6C232DF35A903B89D9E82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C61854F705F4088E1F97CC42CB1282 /* Pods-LibIrmakFile_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B616671D6326B9C7ED5604A2E6962A33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C579092094A6D60438A894CE18AD7B5B /* LibIrmakFile-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B3BAB4FD11641B31A51C64639AC5991 /* Pods-LibIrmakFile_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CD2CB58BF8871707DACEC6250111B9 /* Build configuration list for PBXNativeTarget "Pods-LibIrmakFile_Example" */;
+			buildPhases = (
+				7963927DE3C6C232DF35A903B89D9E82 /* Headers */,
+				06D3D2507DB94DF290EE83642F32A88B /* Sources */,
+				2BD1EB1E4461F1A727B36EE9FDEAD127 /* Frameworks */,
+				51AFB4D32BE5984277BE8B1A72204445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A06D3BF6DAE5458B10E7B08DA1FD1D6E /* PBXTargetDependency */,
+			);
+			name = "Pods-LibIrmakFile_Example";
+			productName = "Pods-LibIrmakFile_Example";
+			productReference = 580CEF92E25629309F2C0D539359551C /* Pods_LibIrmakFile_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86CA07C32C06A547F088B6832EB30982 /* Pods-LibIrmakFile_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6671EB932DCA3D437A64E40D079F0820 /* Build configuration list for PBXNativeTarget "Pods-LibIrmakFile_Tests" */;
+			buildPhases = (
+				149E35ECF86971A2C7817842C0FB8FA5 /* Headers */,
+				0F6616AA23E61EB35355A96163BEE60E /* Sources */,
+				D6AB3B9DBBCAA306F0D723F5408AE8FA /* Frameworks */,
+				1C608BBD9D27481D82BF05BCB22F35B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DC8FCB99D3F0F14D895559E38C4A6C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-LibIrmakFile_Tests";
+			productName = "Pods-LibIrmakFile_Tests";
+			productReference = 77E010C2C24AA3BFA23F4BD6FBBF00C8 /* Pods_LibIrmakFile_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF3812E44D51254337362C80852E0DB3 /* LibIrmakFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F20ADAF0DE4A2BBEC7CFF6783C09926 /* Build configuration list for PBXNativeTarget "LibIrmakFile" */;
+			buildPhases = (
+				B616671D6326B9C7ED5604A2E6962A33 /* Headers */,
+				EA89ED7E6DEEE10AD0A877D27F51F229 /* Sources */,
+				71F4FE9461ADE6EE46396B4D1C3A3D6B /* Frameworks */,
+				DF9C8F9349D83B1D75A0139F57E31D26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibIrmakFile;
+			productName = LibIrmakFile;
+			productReference = 89F711749795B5B2DA6483973676335B /* LibIrmakFile.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2C0BCBDFC3F5C910EC77B9B62433F7CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF3812E44D51254337362C80852E0DB3 /* LibIrmakFile */,
+				6B3BAB4FD11641B31A51C64639AC5991 /* Pods-LibIrmakFile_Example */,
+				86CA07C32C06A547F088B6832EB30982 /* Pods-LibIrmakFile_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C608BBD9D27481D82BF05BCB22F35B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51AFB4D32BE5984277BE8B1A72204445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9C8F9349D83B1D75A0139F57E31D26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06D3D2507DB94DF290EE83642F32A88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA70FA6DB444B7626D7C9DE9569AD18 /* Pods-LibIrmakFile_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F6616AA23E61EB35355A96163BEE60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18520B5F0596EEF75D51A2B15E2A35DF /* Pods-LibIrmakFile_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA89ED7E6DEEE10AD0A877D27F51F229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553094C08BA5A53F77A8604D61DB2862 /* LibIrmakFile-dummy.m in Sources */,
+				FD894C432603DD7200A6A8FF /* Logger.swift in Sources */,
+				4FB4F41C986AE6C5D0879CA0D38927FF /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DC8FCB99D3F0F14D895559E38C4A6C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LibIrmakFile_Example";
+			target = 6B3BAB4FD11641B31A51C64639AC5991 /* Pods-LibIrmakFile_Example */;
+			targetProxy = F38CA11DC163F48BC3A65B54055A14CD /* PBXContainerItemProxy */;
+		};
+		A06D3BF6DAE5458B10E7B08DA1FD1D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LibIrmakFile;
+			target = BF3812E44D51254337362C80852E0DB3 /* LibIrmakFile */;
+			targetProxy = 7D5F2F6F210EABC16A291362ADE444C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2FB8650D3536FE49FEEA09F9B8200DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D39FFAFD4E114B236F655087F26B53E /* LibIrmakFile.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LibIrmakFile/LibIrmakFile-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LibIrmakFile/LibIrmakFile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LibIrmakFile/LibIrmakFile.modulemap";
+				PRODUCT_MODULE_NAME = LibIrmakFile;
+				PRODUCT_NAME = LibIrmakFile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5638665D2B7EB94C5B5E380D1B577B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B735F430D90FCBDC94D09C957AB8A97 /* Pods-LibIrmakFile_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LibIrmakFile_Tests/Pods-LibIrmakFile_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LibIrmakFile_Tests/Pods-LibIrmakFile_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58807E145A3299EE30D6F11F7825B2FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02FC47E38B5340A34A39B1A167F7F01C /* Pods-LibIrmakFile_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LibIrmakFile_Example/Pods-LibIrmakFile_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LibIrmakFile_Example/Pods-LibIrmakFile_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B086ABE175352794CA40B2BBDDC3F915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B61ABA139D6AC2F36CC6E55512EE6C1 /* LibIrmakFile.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LibIrmakFile/LibIrmakFile-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LibIrmakFile/LibIrmakFile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LibIrmakFile/LibIrmakFile.modulemap";
+				PRODUCT_MODULE_NAME = LibIrmakFile;
+				PRODUCT_NAME = LibIrmakFile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E457AC8710ED960F4AA4C685033EA917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 199AA173888680FA013AB622EE12081D /* Pods-LibIrmakFile_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LibIrmakFile_Tests/Pods-LibIrmakFile_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LibIrmakFile_Tests/Pods-LibIrmakFile_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9CCEAF49B9C7B7B3EBA03B638313B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F689E73706C0603A037377DD5FC8816 /* Pods-LibIrmakFile_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LibIrmakFile_Example/Pods-LibIrmakFile_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LibIrmakFile_Example/Pods-LibIrmakFile_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F20ADAF0DE4A2BBEC7CFF6783C09926 /* Build configuration list for PBXNativeTarget "LibIrmakFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB8650D3536FE49FEEA09F9B8200DD3 /* Debug */,
+				B086ABE175352794CA40B2BBDDC3F915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6671EB932DCA3D437A64E40D079F0820 /* Build configuration list for PBXNativeTarget "Pods-LibIrmakFile_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5638665D2B7EB94C5B5E380D1B577B07 /* Debug */,
+				E457AC8710ED960F4AA4C685033EA917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CD2CB58BF8871707DACEC6250111B9 /* Build configuration list for PBXNativeTarget "Pods-LibIrmakFile_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CCEAF49B9C7B7B3EBA03B638313B06 /* Debug */,
+				58807E145A3299EE30D6F11F7825B2FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
