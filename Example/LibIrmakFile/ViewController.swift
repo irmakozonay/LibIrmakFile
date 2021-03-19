@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let logger = Logger()
         logger.printLog()
         // Do any additional setup after loading the view, typically from a nib.
     }
