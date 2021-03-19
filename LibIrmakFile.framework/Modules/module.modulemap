@@ -1,0 +1,11 @@
+framework module LibIrmakFile {
+  umbrella header "LibIrmakFile-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module LibIrmakFile.Swift {
+    header "LibIrmakFile-Swift.h"
+    requires objc
+}
