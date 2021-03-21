@@ -22,6 +22,8 @@ public class Logger : NSObject, QLPreviewControllerDataSource {
             print("devv")
         #elseif TESTETTET
             print("tesstt")
+        #elseif COCOAPODS
+            print("COCOAPODS")
         #else
             print("elsee")
         #endif
