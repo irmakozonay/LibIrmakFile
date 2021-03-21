@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LibIrmakFile'
-  s.version          = '0.1.7'
+  s.version          = '0.1.4'
   s.summary          = 'LibIrmakFile the description.'
 
 # This description is used to generate tags and improve search results.
@@ -21,19 +21,17 @@ Pod::Spec.new do |s|
   'LibIrmakFile the longest description.'
                        DESC
 
-  s.homepage         = 'https://github.com/irmakozonay'
+  s.homepage         = 'https://github.com/irmakozonay/LibIrmakFile'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'irmakozonay' => 'irmakoz@msn.com' }
-  s.ios.vendored_frameworks = 'LibIrmakFile.framework'
-  s.source           = { :http => 'https://github.com/irmakozonay/LibIrmakFile/raw/main/LibIrmakFile.zip' }
+  s.source           = { :git => 'https://github.com/irmakozonay/LibIrmakFile.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
   s.swift_version = '4.0'
 
-  s.source_files = 'LibIrmakFile.zip'
-#  s.exclude_files = 'LibIrmakFile/Classes/**/*'
+  s.source_files = 'LibIrmakFile/Classes/**/*'
   
   # s.resource_bundles = {
   #   'LibIrmakFile' => ['LibIrmakFile/Assets/*.png']

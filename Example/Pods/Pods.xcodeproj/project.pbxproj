@@ -17,6 +17,10 @@
 		E0A2C125808FCB630DB5102CC54D6450 /* Pods-LibIrmakFile_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B952608387CB17C9C3CF75E8CDA8EDB /* Pods-LibIrmakFile_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7C61854F705F4088E1F97CC42CB1282 /* Pods-LibIrmakFile_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2EED1773041099447E8684BA56F2527 /* Pods-LibIrmakFile_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD894C432603DD7200A6A8FF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD894C422603DD7200A6A8FF /* Logger.swift */; };
+		FDE55FF2260778D4000727DB /* LibIrmakFile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B19E323EBABF5A543E88707BE5BA2F2F /* LibIrmakFile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDE55FF4260778D4000727DB /* LibIrmakFile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDA4CEF71DFC411F5E4EEC5227A28FF /* LibIrmakFile-dummy.m */; };
+		FDE55FF5260778D4000727DB /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD894C422603DD7200A6A8FF /* Logger.swift */; };
+		FDE55FF7260778D4000727DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,8 @@
 		C9E5E9D7A657A2F426C4184822B8D4ED /* Pods-LibIrmakFile_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LibIrmakFile_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E2EED1773041099447E8684BA56F2527 /* Pods-LibIrmakFile_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LibIrmakFile_Example-umbrella.h"; sourceTree = "<group>"; };
 		FD894C422603DD7200A6A8FF /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = LibIrmakFile/Classes/Logger.swift; sourceTree = "<group>"; };
+		FDE55FFC260778D4000727DB /* LibIrmakFile Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LibIrmakFile Dev.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE55FFD260778D4000727DB /* LibIrmakFile copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LibIrmakFile copy-Info.plist"; path = "/Users/irmakozonay/Documents/Projects/PodDeneme/LibIrmakFile/Example/Pods/LibIrmakFile copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A81F61BB106E1AE75F6625998BD47757 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE55FF6260778D4000727DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE55FF7260778D4000727DB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +136,7 @@
 				89F711749795B5B2DA6483973676335B /* LibIrmakFile.framework */,
 				580CEF92E25629309F2C0D539359551C /* Pods_LibIrmakFile_Example.framework */,
 				77E010C2C24AA3BFA23F4BD6FBBF00C8 /* Pods_LibIrmakFile_Tests.framework */,
+				FDE55FFC260778D4000727DB /* LibIrmakFile Dev.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -203,6 +218,7 @@
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				2C0BCBDFC3F5C910EC77B9B62433F7CF /* Products */,
 				D77BF078A9AF30739311CA4BA381818E /* Targets Support Files */,
+				FDE55FFD260778D4000727DB /* LibIrmakFile copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -247,6 +263,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C579092094A6D60438A894CE18AD7B5B /* LibIrmakFile-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE55FF1260778D4000727DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE55FF2260778D4000727DB /* LibIrmakFile-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +333,24 @@
 			productReference = 89F711749795B5B2DA6483973676335B /* LibIrmakFile.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		FDE55FF0260778D4000727DB /* LibIrmakFile Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE55FF9260778D4000727DB /* Build configuration list for PBXNativeTarget "LibIrmakFile Dev" */;
+			buildPhases = (
+				FDE55FF1260778D4000727DB /* Headers */,
+				FDE55FF3260778D4000727DB /* Sources */,
+				FDE55FF6260778D4000727DB /* Frameworks */,
+				FDE55FF8260778D4000727DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LibIrmakFile Dev";
+			productName = LibIrmakFile;
+			productReference = FDE55FFC260778D4000727DB /* LibIrmakFile Dev.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -334,6 +376,7 @@
 				BF3812E44D51254337362C80852E0DB3 /* LibIrmakFile */,
 				6B3BAB4FD11641B31A51C64639AC5991 /* Pods-LibIrmakFile_Example */,
 				86CA07C32C06A547F088B6832EB30982 /* Pods-LibIrmakFile_Tests */,
+				FDE55FF0260778D4000727DB /* LibIrmakFile Dev */,
 			);
 		};
 /* End PBXProject section */
@@ -354,6 +397,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DF9C8F9349D83B1D75A0139F57E31D26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE55FF8260778D4000727DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,6 +435,15 @@
 			files = (
 				553094C08BA5A53F77A8604D61DB2862 /* LibIrmakFile-dummy.m in Sources */,
 				FD894C432603DD7200A6A8FF /* Logger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE55FF3260778D4000727DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE55FF4260778D4000727DB /* LibIrmakFile-dummy.m in Sources */,
+				FDE55FF5260778D4000727DB /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,6 +783,67 @@
 			};
 			name = Debug;
 		};
+		FDE55FFA260778D4000727DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D39FFAFD4E114B236F655087F26B53E /* LibIrmakFile.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LibIrmakFile/LibIrmakFile-prefix.pch";
+				INFOPLIST_FILE = "LibIrmakFile copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LibIrmakFile/LibIrmakFile.modulemap";
+				PRODUCT_MODULE_NAME = LibIrmakFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDE55FFB260778D4000727DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B61ABA139D6AC2F36CC6E55512EE6C1 /* LibIrmakFile.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LibIrmakFile/LibIrmakFile-prefix.pch";
+				INFOPLIST_FILE = "LibIrmakFile copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LibIrmakFile/LibIrmakFile.modulemap";
+				PRODUCT_MODULE_NAME = LibIrmakFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -759,6 +879,15 @@
 			buildConfigurations = (
 				F9CCEAF49B9C7B7B3EBA03B638313B06 /* Debug */,
 				58807E145A3299EE30D6F11F7825B2FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE55FF9260778D4000727DB /* Build configuration list for PBXNativeTarget "LibIrmakFile Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE55FFA260778D4000727DB /* Debug */,
+				FDE55FFB260778D4000727DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
