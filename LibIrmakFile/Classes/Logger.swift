@@ -16,10 +16,12 @@ public class Logger : NSObject, QLPreviewControllerDataSource {
     public static let shared = Logger()
     
     public func printLog() {
-        print("printLog")
+        print("printLogg")
         
         #if DEVELOPMENT
             print("devv")
+        #elseif TESTETTET
+            print("tesstt")
         #else
             print("elsee")
         #endif
