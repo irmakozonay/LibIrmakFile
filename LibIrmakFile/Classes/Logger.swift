@@ -17,7 +17,14 @@ public class Logger : NSObject, QLPreviewControllerDataSource {
     
     public func printLog() {
         print("printLog")
+        
+        #if DEVELOPMENT
+            print("devv")
+        #else
+            print("elsee")
+        #endif
     }
+    
     
     public func downloadUSDZFile(finished: @escaping () -> Void) {
         print("start download")
