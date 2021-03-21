@@ -2,8 +2,7 @@ PODS:
   - Countly (20.11.1):
     - Countly/Core (= 20.11.1)
   - Countly/Core (20.11.1)
-  - LibIrmakFile (0.1.7):
-    - Countly
+  - LibIrmakFile (0.1.9)
 
 DEPENDENCIES:
   - Countly
@@ -19,7 +18,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Countly: df8dcfbbb6979e6ef31f7407d61d24fcbbbdaddf
-  LibIrmakFile: 037f65c857e1462611dd5a8dd5d15e53c5ae0abc
+  LibIrmakFile: 8e16ecdc9533c355a54daad59c071eddab7e32bb
 
 PODFILE CHECKSUM: d0da459ed6a126ccdc904266ad819b4c9178e265
 

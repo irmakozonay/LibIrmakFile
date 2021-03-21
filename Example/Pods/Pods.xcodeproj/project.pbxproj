@@ -12,7 +12,7 @@
 		07ABCB1FE39E9971143628C42167C226 /* CountlyConsentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D33AF1432BD46B3488F4F7047F268944 /* CountlyConsentManager.m */; };
 		07DD8B115FF0419F8CBB88765C33E964 /* CountlyDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CB43AE6B29422D6C80BE7E6191646889 /* CountlyDeviceInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0B4D3148BCF3B2C5B60CBCBB4BF740AE /* CountlyFeedbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D09EE30E1023BD02B39D6D1021C93B /* CountlyFeedbacks.m */; };
-		18520B5F0596EEF75D51A2B15E2A35DF /* Pods-LibIrmakFile_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9B57CAEC01FC5BE85A3617EF07BAE9 /* Pods-LibIrmakFile_Tests-dummy.m */; };
+		18520B5F0596EEF75D51A2B15E2A35DF /* Pods-LibIrmakFile_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A77B567F3E0B33DB988F36C3B12DF387 /* Pods-LibIrmakFile_Tests-dummy.m */; };
 		18695F3F05227E736866841BD21D39C0 /* CountlyViewTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D0FBED5E90CA50974CE19B85E874FA /* CountlyViewTracking.m */; };
 		18EB42590A61A17D25CC8898CF0CB9AD /* CountlyPersistency.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE3BFCC33AE5DE95D276DF80CAC495 /* CountlyPersistency.m */; };
 		1DB4E5B0EBE72231E0392D1EFD3AB9C3 /* Countly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CA70F6F36DFE3C82745C0043152F9D /* Countly-dummy.m */; };
@@ -22,9 +22,10 @@
 		39D281752A891462411A6C82C244EB9F /* Countly.m in Sources */ = {isa = PBXBuildFile; fileRef = D38E1F731D2133975F4E172F5A469B80 /* Countly.m */; };
 		3D51C6B10EE50426B4E90EE47CBDCE1E /* CountlyLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A10B37D6F115B546C00C70476879524 /* CountlyLocationManager.m */; };
 		40B857E6F3E13D17A93B9F4C747CF2A8 /* CountlyPushNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = DCA2342A65CEFC6F266D0A39EBBB527C /* CountlyPushNotifications.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		479742D489D2462E521AD59B14F58E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		495ACC44D594A6C10DC42BC787E3D925 /* CountlyLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 124923C64C7D3C04EA314BA7147DE7E7 /* CountlyLocationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4F8F59670782CA99DBA8A7F8E34F2370 /* CountlyEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B988681B017262C1BDE1425C333BD4 /* CountlyEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4F9F3F6322FF95514C7DA044A4FF3F3F /* Pods-LibIrmakFile_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8FF1D281FDEF4C28FFEAC895618EC04 /* Pods-LibIrmakFile_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F9F3F6322FF95514C7DA044A4FF3F3F /* Pods-LibIrmakFile_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2EED1773041099447E8684BA56F2527 /* Pods-LibIrmakFile_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56ABAFE509C870E0BB140012B293509A /* CountlyUserDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F185D7F48D6CC0F620B0A6F71A80D5 /* CountlyUserDetails.m */; };
 		5BE881FE81EFEBF69ED30CC09EDB893C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5D5DC6FE9DE0C70DE2FF9930599C5151 /* CountlyCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8C2262B400C14AD8AEC45D3654F9CC /* CountlyCommon.m */; };
@@ -35,25 +36,24 @@
 		7242DB4E80ACBBC09D9AEBFA359F2AE5 /* CountlyPerformanceMonitoring.h in Headers */ = {isa = PBXBuildFile; fileRef = A021D56D4C80EC3531B8F7FBD60D73A2 /* CountlyPerformanceMonitoring.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		81C0C2EDA0D85ED5744DB9EA4D6B0EA9 /* CountlyFeedbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = A5CA00887E7DB14E200C25C33B1EDB0B /* CountlyFeedbacks.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8788DE626317531F2307E998AB9BAB37 /* CountlyConnectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 03596D26438160114F239C9670A74892 /* CountlyConnectionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8A14B578D441B793478BB30B1FFA7EDF /* LibIrmakFile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7817FAFA780659E3A10329B02E714AD /* LibIrmakFile-dummy.m */; };
 		8E99F2FEB92151880D744F30797BF9A2 /* CountlyUserDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = B0570AB1E2E6EA98161B22908CB4FD90 /* CountlyUserDetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9564CF8BE9A73E49EF0795EDC5C280ED /* CountlyNotificationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE1867EB0485B07EA0C627840E92C9F /* CountlyNotificationService.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A6AFED6746A7E1BA1E8C8C019957BC73 /* CountlyFeedbackWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 918848C79C1E0220AEE9C79837526807 /* CountlyFeedbackWidget.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A74FC6ACD67A26A0CD79B86B51D00DAF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA80758E8A28C129BC90BF35BF96986 /* Logger.swift */; };
 		A81F61BB106E1AE75F6625998BD47757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B13D548B58377488A7A38C59C488BF68 /* LibIrmakFile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7817FAFA780659E3A10329B02E714AD /* LibIrmakFile-dummy.m */; };
+		B1F581E31424D1EAB2B623BBC3F1BE2C /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA80758E8A28C129BC90BF35BF96986 /* Logger.swift */; };
 		B34C07F3BF027B1C9DDFE515B9354A24 /* CountlyCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = D308F8DF1237979FA62FB9394FF6580D /* CountlyCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B39E978A4F64B8174611DDA863CFEC35 /* CountlyPushNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EFC94146A05F6C930577D73F330CEE /* CountlyPushNotifications.m */; };
 		B9DF97029BD62B33BF05CCBDE4B2DE48 /* CountlyDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 524D9E5C0953CCA8F5B54F3C1F6B7693 /* CountlyDeviceInfo.m */; };
 		BC0EF42CF0BCE022C830E9D5F483E6E7 /* CountlyConsentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B33EA2CF0D50E772A9DDF76F5049D9F /* CountlyConsentManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BD83CEC5E44B1802F977D6705405F76E /* CountlyConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D98792043B53F5C7A0DA2FE7447C67B /* CountlyConnectionManager.m */; };
-		CC23D54ADA4FCE4FDF5AB8E5EA371B69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C579092094A6D60438A894CE18AD7B5B /* LibIrmakFile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C96B03C7B2AB572F2EC0BB31BC121A /* LibIrmakFile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5447B7AF8D5750A4397ABF979EC764D /* CountlyEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E581611C7548FDE9D30F1B741957A1 /* CountlyEvent.m */; };
 		D593982DED038AFBAA1386E0A006316E /* CountlyNotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D5DBB175898AFA162AFD14BD38D145 /* CountlyNotificationService.m */; };
-		D5BD6068E5E99354AC7DC251F4FF7FE8 /* LibIrmakFile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C96B03C7B2AB572F2EC0BB31BC121A /* LibIrmakFile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8F87E08290603AB1F02CB852F1B1A16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DD0AD5C597D121FE90478CA725F7AAFF /* CountlyRemoteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B9CEE984AC026B3265EF7291C3F607 /* CountlyRemoteConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E0A2C125808FCB630DB5102CC54D6450 /* Pods-LibIrmakFile_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 699D808C7DD9DCBB06338BFFF848BECF /* Pods-LibIrmakFile_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6D9D6B4521200CD2245423DB02886B1 /* Pods-LibIrmakFile_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AD480C792B1CF7FD532C6D7D67CCF4 /* Pods-LibIrmakFile_Example-dummy.m */; };
+		E0A2C125808FCB630DB5102CC54D6450 /* Pods-LibIrmakFile_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B952608387CB17C9C3CF75E8CDA8EDB /* Pods-LibIrmakFile_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6D9D6B4521200CD2245423DB02886B1 /* Pods-LibIrmakFile_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BED92837ACDC5BB716644C82B13965A /* Pods-LibIrmakFile_Example-dummy.m */; };
 		F1961C31180B58210519B55F05C8DE9B /* CountlyConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E318415FB5FBD22FA24655D771C68C /* CountlyConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F54B8ABC72A75B3DEA068D86CB5AE27C /* CountlyPerformanceMonitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C0FF282C6A40648F11285C0B97B2E9 /* CountlyPerformanceMonitoring.m */; };
 /* End PBXBuildFile section */
@@ -73,13 +73,6 @@
 			remoteGlobalIDString = 6B3BAB4FD11641B31A51C64639AC5991;
 			remoteInfo = "Pods-LibIrmakFile_Example";
 		};
-		507FA9F465664C4BC4BDD49BC61E29E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 683FFF0298D265E054F0588512DF7E99;
-			remoteInfo = Countly;
-		};
 		FC883603197D818778D807D730676279 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -91,81 +84,82 @@
 
 /* Begin PBXFileReference section */
 		00EFC94146A05F6C930577D73F330CEE /* CountlyPushNotifications.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyPushNotifications.m; sourceTree = "<group>"; };
+		02FC47E38B5340A34A39B1A167F7F01C /* Pods-LibIrmakFile_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibIrmakFile_Example.release.xcconfig"; sourceTree = "<group>"; };
 		03596D26438160114F239C9670A74892 /* CountlyConnectionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyConnectionManager.h; sourceTree = "<group>"; };
 		037871443A51ADE6FDF857072582C52F /* Countly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Countly.h; sourceTree = "<group>"; };
 		0980AA0467751E35D11571F7116BBD7A /* LibIrmakFile-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LibIrmakFile-Info.plist"; sourceTree = "<group>"; };
+		0A4ABFDB66C3F47F4ACFE9FF9D2FCC7B /* Pods-LibIrmakFile_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibIrmakFile_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B8518575E90D974EF9EC694680EC9EF /* Pods-LibIrmakFile_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibIrmakFile_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B952608387CB17C9C3CF75E8CDA8EDB /* Pods-LibIrmakFile_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LibIrmakFile_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0BC8D44CE66544DAA5BB0CA843426275 /* Pods-LibIrmakFile_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LibIrmakFile_Tests.modulemap"; sourceTree = "<group>"; };
 		0D88908596385CE483D58B312C1807FA /* Countly-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Countly-umbrella.h"; sourceTree = "<group>"; };
+		0E0D4A5C8B8753AE20EF20DEB4FAC816 /* Pods-LibIrmakFile_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LibIrmakFile_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0F689E73706C0603A037377DD5FC8816 /* Pods-LibIrmakFile_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibIrmakFile_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		124923C64C7D3C04EA314BA7147DE7E7 /* CountlyLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyLocationManager.h; sourceTree = "<group>"; };
+		12ECE38759CFC86034AD132CB7387F83 /* Pods-LibIrmakFile_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibIrmakFile_Example-Info.plist"; sourceTree = "<group>"; };
 		15E581611C7548FDE9D30F1B741957A1 /* CountlyEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyEvent.m; sourceTree = "<group>"; };
+		199AA173888680FA013AB622EE12081D /* Pods-LibIrmakFile_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibIrmakFile_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		19B988681B017262C1BDE1425C333BD4 /* CountlyEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyEvent.h; sourceTree = "<group>"; };
 		1CDE3BFCC33AE5DE95D276DF80CAC495 /* CountlyPersistency.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyPersistency.m; sourceTree = "<group>"; };
-		1E709A37586A5BF8D0C9782C7EF9C2FE /* Pods-LibIrmakFile_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LibIrmakFile_Example.modulemap"; sourceTree = "<group>"; };
-		21073B53DCC650C701CE783C1A920E48 /* Pods-LibIrmakFile_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LibIrmakFile_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D0542A07D6D46C5ED19E146FE8EF990 /* Pods-LibIrmakFile_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LibIrmakFile_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		24C96B03C7B2AB572F2EC0BB31BC121A /* LibIrmakFile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibIrmakFile-umbrella.h"; sourceTree = "<group>"; };
 		26B9CEE984AC026B3265EF7291C3F607 /* CountlyRemoteConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyRemoteConfig.h; sourceTree = "<group>"; };
 		26C0FF282C6A40648F11285C0B97B2E9 /* CountlyPerformanceMonitoring.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyPerformanceMonitoring.m; sourceTree = "<group>"; };
 		2B0D47BA789E6904CD19CD54AE6676E5 /* Countly.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Countly.modulemap; sourceTree = "<group>"; };
-		2CB019C3A94C7D63C34520E6D46B1F82 /* Pods-LibIrmakFile_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibIrmakFile_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B735F430D90FCBDC94D09C957AB8A97 /* Pods-LibIrmakFile_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibIrmakFile_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2FE1867EB0485B07EA0C627840E92C9F /* CountlyNotificationService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyNotificationService.h; sourceTree = "<group>"; };
 		356ED434E7394B4A2667500FFFA98EA8 /* LibIrmakFile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LibIrmakFile.debug.xcconfig; sourceTree = "<group>"; };
 		39D0FBED5E90CA50974CE19B85E874FA /* CountlyViewTracking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyViewTracking.m; sourceTree = "<group>"; };
 		3A10B37D6F115B546C00C70476879524 /* CountlyLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyLocationManager.m; sourceTree = "<group>"; };
 		3C7F1265F21A1D9ED6A74462E13EBEE8 /* CountlyPersistency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyPersistency.h; sourceTree = "<group>"; };
 		3D98792043B53F5C7A0DA2FE7447C67B /* CountlyConnectionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyConnectionManager.m; sourceTree = "<group>"; };
-		3F3BFAD7DF41E5C73B482428C53807AD /* Pods-LibIrmakFile_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibIrmakFile_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4191340A906928E45E0BDE74AEA57F6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		49CA70F6F36DFE3C82745C0043152F9D /* Countly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Countly-dummy.m"; sourceTree = "<group>"; };
 		49E318415FB5FBD22FA24655D771C68C /* CountlyConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyConfig.h; sourceTree = "<group>"; };
 		4AED99A046F5E56D424134924A5B5779 /* Countly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Countly.debug.xcconfig; sourceTree = "<group>"; };
 		507D78D44DE83B44E16791338F5AB2E1 /* LibIrmakFile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LibIrmakFile.release.xcconfig; sourceTree = "<group>"; };
+		50C3C4B87E78ED79A34C1D64E4E951D8 /* Pods-LibIrmakFile_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibIrmakFile_Tests-Info.plist"; sourceTree = "<group>"; };
 		51D3A9632FB2AF2384C75DE5A45053A5 /* CountlyCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyCrashReporter.m; sourceTree = "<group>"; };
 		524D9E5C0953CCA8F5B54F3C1F6B7693 /* CountlyDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyDeviceInfo.m; sourceTree = "<group>"; };
 		53D5DBB175898AFA162AFD14BD38D145 /* CountlyNotificationService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyNotificationService.m; sourceTree = "<group>"; };
 		57D09EE30E1023BD02B39D6D1021C93B /* CountlyFeedbacks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyFeedbacks.m; sourceTree = "<group>"; };
 		580CEF92E25629309F2C0D539359551C /* Pods_LibIrmakFile_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LibIrmakFile_Example.framework; path = "Pods-LibIrmakFile_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		594B6D5223E8AB93B98E5D528428D429 /* Pods-LibIrmakFile_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibIrmakFile_Example-Info.plist"; sourceTree = "<group>"; };
 		5B33EA2CF0D50E772A9DDF76F5049D9F /* CountlyConsentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyConsentManager.h; sourceTree = "<group>"; };
 		5FA80758E8A28C129BC90BF35BF96986 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = LibIrmakFile/Classes/Logger.swift; sourceTree = "<group>"; };
-		699D808C7DD9DCBB06338BFFF848BECF /* Pods-LibIrmakFile_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LibIrmakFile_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6CA8D7FD0DE941E14978B294D616C886 /* CountlyRemoteConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyRemoteConfig.m; sourceTree = "<group>"; };
-		6EE5D9EFC8B3540433C0F7179279F340 /* Pods-LibIrmakFile_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibIrmakFile_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74F185D7F48D6CC0F620B0A6F71A80D5 /* CountlyUserDetails.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyUserDetails.m; sourceTree = "<group>"; };
 		77E010C2C24AA3BFA23F4BD6FBBF00C8 /* Pods_LibIrmakFile_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LibIrmakFile_Tests.framework; path = "Pods-LibIrmakFile_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6A708FA9DD4554693611DBCF57DA6E /* LibIrmakFile.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LibIrmakFile.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7B1CA5D2291FDCAD0E1D3DD2491D75F8 /* LibIrmakFile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LibIrmakFile.modulemap; sourceTree = "<group>"; };
+		7BED92837ACDC5BB716644C82B13965A /* Pods-LibIrmakFile_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LibIrmakFile_Example-dummy.m"; sourceTree = "<group>"; };
 		89F711749795B5B2DA6483973676335B /* LibIrmakFile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LibIrmakFile.framework; path = LibIrmakFile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		918848C79C1E0220AEE9C79837526807 /* CountlyFeedbackWidget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyFeedbackWidget.h; sourceTree = "<group>"; };
 		936CD4CAD5E12BF16A5E57C65B4BEFEF /* CountlyFeedbackWidget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyFeedbackWidget.m; sourceTree = "<group>"; };
 		9774F4E4033BF291BA0FD786D2468FCA /* Countly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Countly.framework; path = Countly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		99CE871FC1F7FABD83634B668F720C82 /* Pods-LibIrmakFile_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibIrmakFile_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B627B4A2AEF6ECA2A0E5E80BC06FEED /* Countly-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Countly-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A021D56D4C80EC3531B8F7FBD60D73A2 /* CountlyPerformanceMonitoring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyPerformanceMonitoring.h; sourceTree = "<group>"; };
-		A207CAA6AEB9AE9B2A9FAD69B5C0F821 /* Pods-LibIrmakFile_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LibIrmakFile_Tests.modulemap"; sourceTree = "<group>"; };
 		A5CA00887E7DB14E200C25C33B1EDB0B /* CountlyFeedbacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyFeedbacks.h; sourceTree = "<group>"; };
+		A77B567F3E0B33DB988F36C3B12DF387 /* Pods-LibIrmakFile_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LibIrmakFile_Tests-dummy.m"; sourceTree = "<group>"; };
+		A807DB286B0660790034957891FA1268 /* Pods-LibIrmakFile_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LibIrmakFile_Example.modulemap"; sourceTree = "<group>"; };
 		ACAB686E6910C359D98491333498E3D3 /* CountlyConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyConfig.m; sourceTree = "<group>"; };
 		ACD34BF99C28CE7A15FAD6938FF1B9C4 /* CountlyViewTracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyViewTracking.h; sourceTree = "<group>"; };
-		AEC35AA3D7303BFC8949A6ACBFE8824C /* Pods-LibIrmakFile_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibIrmakFile_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B0570AB1E2E6EA98161B22908CB4FD90 /* CountlyUserDetails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyUserDetails.h; sourceTree = "<group>"; };
-		B0E3B791EB552679758663550385D9F9 /* Pods-LibIrmakFile_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibIrmakFile_Tests-Info.plist"; sourceTree = "<group>"; };
-		B30ED2B55698E7538EDE3EC6B32A2F82 /* Pods-LibIrmakFile_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LibIrmakFile_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B99AD1B7C65332541898E408A41E5B84 /* LibIrmakFile-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibIrmakFile-prefix.pch"; sourceTree = "<group>"; };
 		BC8C2262B400C14AD8AEC45D3654F9CC /* CountlyCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyCommon.m; sourceTree = "<group>"; };
 		BE730549C8644A8E97F1D2AC790D8402 /* Countly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Countly.release.xcconfig; sourceTree = "<group>"; };
 		BFE58A97BD1A22E90E94B0600D91F26A /* CountlyCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyCrashReporter.h; sourceTree = "<group>"; };
-		C57E727B8B8B58FDFC95A403D7199FE0 /* Pods-LibIrmakFile_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibIrmakFile_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C5AD480C792B1CF7FD532C6D7D67CCF4 /* Pods-LibIrmakFile_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LibIrmakFile_Example-dummy.m"; sourceTree = "<group>"; };
+		C9E5E9D7A657A2F426C4184822B8D4ED /* Pods-LibIrmakFile_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LibIrmakFile_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB43AE6B29422D6C80BE7E6191646889 /* CountlyDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyDeviceInfo.h; sourceTree = "<group>"; };
 		D0464D59EF3829517A56F8B109151651 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D308F8DF1237979FA62FB9394FF6580D /* CountlyCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyCommon.h; sourceTree = "<group>"; };
 		D33AF1432BD46B3488F4F7047F268944 /* CountlyConsentManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CountlyConsentManager.m; sourceTree = "<group>"; };
 		D38E1F731D2133975F4E172F5A469B80 /* Countly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Countly.m; sourceTree = "<group>"; };
 		DCA2342A65CEFC6F266D0A39EBBB527C /* CountlyPushNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CountlyPushNotifications.h; sourceTree = "<group>"; };
+		E2EED1773041099447E8684BA56F2527 /* Pods-LibIrmakFile_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LibIrmakFile_Example-umbrella.h"; sourceTree = "<group>"; };
 		E35661E8CA6978C388A6251F491C42C5 /* Countly-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Countly-Info.plist"; sourceTree = "<group>"; };
-		E8FF1D281FDEF4C28FFEAC895618EC04 /* Pods-LibIrmakFile_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LibIrmakFile_Example-umbrella.h"; sourceTree = "<group>"; };
 		F7817FAFA780659E3A10329B02E714AD /* LibIrmakFile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LibIrmakFile-dummy.m"; sourceTree = "<group>"; };
-		FD9B57CAEC01FC5BE85A3617EF07BAE9 /* Pods-LibIrmakFile_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LibIrmakFile_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,19 +171,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46E900DC27725730A9F67C3EA4CA2F5C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC23D54ADA4FCE4FDF5AB8E5EA371B69 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4E19D8A8D577A2A763E770A3471AC42E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D8F87E08290603AB1F02CB852F1B1A16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F4FE9461ADE6EE46396B4D1C3A3D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479742D489D2462E521AD59B14F58E0F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,17 +198,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29E630C253AD9829EB44398BC5B05384 /* Pods-LibIrmakFile_Tests */ = {
+		0FC99BEDF4DF372AEB3B8A75B338E757 /* Pods-LibIrmakFile_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				A207CAA6AEB9AE9B2A9FAD69B5C0F821 /* Pods-LibIrmakFile_Tests.modulemap */,
-				21073B53DCC650C701CE783C1A920E48 /* Pods-LibIrmakFile_Tests-acknowledgements.markdown */,
-				2CB019C3A94C7D63C34520E6D46B1F82 /* Pods-LibIrmakFile_Tests-acknowledgements.plist */,
-				FD9B57CAEC01FC5BE85A3617EF07BAE9 /* Pods-LibIrmakFile_Tests-dummy.m */,
-				B0E3B791EB552679758663550385D9F9 /* Pods-LibIrmakFile_Tests-Info.plist */,
-				699D808C7DD9DCBB06338BFFF848BECF /* Pods-LibIrmakFile_Tests-umbrella.h */,
-				99CE871FC1F7FABD83634B668F720C82 /* Pods-LibIrmakFile_Tests.debug.xcconfig */,
-				C57E727B8B8B58FDFC95A403D7199FE0 /* Pods-LibIrmakFile_Tests.release.xcconfig */,
+				0BC8D44CE66544DAA5BB0CA843426275 /* Pods-LibIrmakFile_Tests.modulemap */,
+				C9E5E9D7A657A2F426C4184822B8D4ED /* Pods-LibIrmakFile_Tests-acknowledgements.markdown */,
+				0B8518575E90D974EF9EC694680EC9EF /* Pods-LibIrmakFile_Tests-acknowledgements.plist */,
+				A77B567F3E0B33DB988F36C3B12DF387 /* Pods-LibIrmakFile_Tests-dummy.m */,
+				50C3C4B87E78ED79A34C1D64E4E951D8 /* Pods-LibIrmakFile_Tests-Info.plist */,
+				0B952608387CB17C9C3CF75E8CDA8EDB /* Pods-LibIrmakFile_Tests-umbrella.h */,
+				2B735F430D90FCBDC94D09C957AB8A97 /* Pods-LibIrmakFile_Tests.debug.xcconfig */,
+				199AA173888680FA013AB622EE12081D /* Pods-LibIrmakFile_Tests.release.xcconfig */,
 			);
 			name = "Pods-LibIrmakFile_Tests";
 			path = "Target Support Files/Pods-LibIrmakFile_Tests";
@@ -348,17 +342,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B589E0D3AA7494AEA921D5CCF96ACEC6 /* Pods-LibIrmakFile_Example */ = {
+		BFE4B08577D4CCD9C719249AFEB1DD94 /* Pods-LibIrmakFile_Example */ = {
 			isa = PBXGroup;
 			children = (
-				1E709A37586A5BF8D0C9782C7EF9C2FE /* Pods-LibIrmakFile_Example.modulemap */,
-				B30ED2B55698E7538EDE3EC6B32A2F82 /* Pods-LibIrmakFile_Example-acknowledgements.markdown */,
-				AEC35AA3D7303BFC8949A6ACBFE8824C /* Pods-LibIrmakFile_Example-acknowledgements.plist */,
-				C5AD480C792B1CF7FD532C6D7D67CCF4 /* Pods-LibIrmakFile_Example-dummy.m */,
-				594B6D5223E8AB93B98E5D528428D429 /* Pods-LibIrmakFile_Example-Info.plist */,
-				E8FF1D281FDEF4C28FFEAC895618EC04 /* Pods-LibIrmakFile_Example-umbrella.h */,
-				3F3BFAD7DF41E5C73B482428C53807AD /* Pods-LibIrmakFile_Example.debug.xcconfig */,
-				6EE5D9EFC8B3540433C0F7179279F340 /* Pods-LibIrmakFile_Example.release.xcconfig */,
+				A807DB286B0660790034957891FA1268 /* Pods-LibIrmakFile_Example.modulemap */,
+				1D0542A07D6D46C5ED19E146FE8EF990 /* Pods-LibIrmakFile_Example-acknowledgements.markdown */,
+				0A4ABFDB66C3F47F4ACFE9FF9D2FCC7B /* Pods-LibIrmakFile_Example-acknowledgements.plist */,
+				7BED92837ACDC5BB716644C82B13965A /* Pods-LibIrmakFile_Example-dummy.m */,
+				0E0D4A5C8B8753AE20EF20DEB4FAC816 /* Pods-LibIrmakFile_Example-frameworks.sh */,
+				12ECE38759CFC86034AD132CB7387F83 /* Pods-LibIrmakFile_Example-Info.plist */,
+				E2EED1773041099447E8684BA56F2527 /* Pods-LibIrmakFile_Example-umbrella.h */,
+				0F689E73706C0603A037377DD5FC8816 /* Pods-LibIrmakFile_Example.debug.xcconfig */,
+				02FC47E38B5340A34A39B1A167F7F01C /* Pods-LibIrmakFile_Example.release.xcconfig */,
 			);
 			name = "Pods-LibIrmakFile_Example";
 			path = "Target Support Files/Pods-LibIrmakFile_Example";
@@ -383,7 +378,7 @@
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				AC76934447F8E7E54BFCA9683D00D6F9 /* Pods */,
 				CD7C95B6738430334FAA1669BAAFE8DF /* Products */,
-				D4B9088EDE4A12851FAD358F524F1DF1 /* Targets Support Files */,
+				D77BF078A9AF30739311CA4BA381818E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -395,11 +390,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4B9088EDE4A12851FAD358F524F1DF1 /* Targets Support Files */ = {
+		D77BF078A9AF30739311CA4BA381818E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B589E0D3AA7494AEA921D5CCF96ACEC6 /* Pods-LibIrmakFile_Example */,
-				29E630C253AD9829EB44398BC5B05384 /* Pods-LibIrmakFile_Tests */,
+				BFE4B08577D4CCD9C719249AFEB1DD94 /* Pods-LibIrmakFile_Example */,
+				0FC99BEDF4DF372AEB3B8A75B338E757 /* Pods-LibIrmakFile_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -441,11 +436,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		651104E6B008F9881960802F5CDDACBB /* Headers */ = {
+		B616671D6326B9C7ED5604A2E6962A33 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5BD6068E5E99354AC7DC251F4FF7FE8 /* LibIrmakFile-umbrella.h in Headers */,
+				C579092094A6D60438A894CE18AD7B5B /* LibIrmakFile-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,17 +514,16 @@
 		};
 		BF3812E44D51254337362C80852E0DB3 /* LibIrmakFile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E9DFC747258F0CC0FEA3DB5FC471CDA /* Build configuration list for PBXNativeTarget "LibIrmakFile" */;
+			buildConfigurationList = 3F20ADAF0DE4A2BBEC7CFF6783C09926 /* Build configuration list for PBXNativeTarget "LibIrmakFile" */;
 			buildPhases = (
-				651104E6B008F9881960802F5CDDACBB /* Headers */,
-				3546B6979B0992FF761766ED574670BC /* Sources */,
-				46E900DC27725730A9F67C3EA4CA2F5C /* Frameworks */,
-				6CAAC4F1BB14F7323D7C950F580A2D92 /* Resources */,
+				B616671D6326B9C7ED5604A2E6962A33 /* Headers */,
+				B45F23E04C88C9AFC6F6C818E238BB71 /* Sources */,
+				71F4FE9461ADE6EE46396B4D1C3A3D6B /* Frameworks */,
+				DF9C8F9349D83B1D75A0139F57E31D26 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6A1350B721AEE6D5FD913DEA15357BDB /* PBXTargetDependency */,
 			);
 			name = LibIrmakFile;
 			productName = LibIrmakFile;
@@ -574,14 +568,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CAAC4F1BB14F7323D7C950F580A2D92 /* Resources */ = {
+		BDC87E40F0A6371A3401FF24D593D16B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDC87E40F0A6371A3401FF24D593D16B /* Resources */ = {
+		DF9C8F9349D83B1D75A0139F57E31D26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -606,12 +600,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3546B6979B0992FF761766ED574670BC /* Sources */ = {
+		B45F23E04C88C9AFC6F6C818E238BB71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A14B578D441B793478BB30B1FFA7EDF /* LibIrmakFile-dummy.m in Sources */,
-				A74FC6ACD67A26A0CD79B86B51D00DAF /* Logger.swift in Sources */,
+				B13D548B58377488A7A38C59C488BF68 /* LibIrmakFile-dummy.m in Sources */,
+				B1F581E31424D1EAB2B623BBC3F1BE2C /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,12 +651,6 @@
 			name = LibIrmakFile;
 			target = BF3812E44D51254337362C80852E0DB3 /* LibIrmakFile */;
 			targetProxy = 0D74CCB392A16E460569E48F76A7B7CA /* PBXContainerItemProxy */;
-		};
-		6A1350B721AEE6D5FD913DEA15357BDB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Countly;
-			target = 683FFF0298D265E054F0588512DF7E99 /* Countly */;
-			targetProxy = 507FA9F465664C4BC4BDD49BC61E29E0 /* PBXContainerItemProxy */;
 		};
 		AB893163838F47A0DA27EF86435C76A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -747,7 +735,7 @@
 		};
 		2DD0DA9399747F3EF22E678710DFB33A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EE5D9EFC8B3540433C0F7179279F340 /* Pods-LibIrmakFile_Example.release.xcconfig */;
+			baseConfigurationReference = 02FC47E38B5340A34A39B1A167F7F01C /* Pods-LibIrmakFile_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -778,9 +766,39 @@
 			};
 			name = Release;
 		};
+		2FB8650D3536FE49FEEA09F9B8200DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356ED434E7394B4A2667500FFFA98EA8 /* LibIrmakFile.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LibIrmakFile/LibIrmakFile-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LibIrmakFile/LibIrmakFile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LibIrmakFile/LibIrmakFile.modulemap";
+				PRODUCT_MODULE_NAME = LibIrmakFile;
+				PRODUCT_NAME = LibIrmakFile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5638665D2B7EB94C5B5E380D1B577B07 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99CE871FC1F7FABD83634B668F720C82 /* Pods-LibIrmakFile_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2B735F430D90FCBDC94D09C957AB8A97 /* Pods-LibIrmakFile_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -809,38 +827,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		5F1AFB150D8046BE578EEC382827F343 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 507D78D44DE83B44E16791338F5AB2E1 /* LibIrmakFile.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LibIrmakFile/LibIrmakFile-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LibIrmakFile/LibIrmakFile-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/LibIrmakFile/LibIrmakFile.modulemap";
-				PRODUCT_MODULE_NAME = LibIrmakFile;
-				PRODUCT_NAME = LibIrmakFile;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		A81B730D540CD4A06D794E0E398BCC04 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -876,7 +862,7 @@
 		};
 		B00315528704F06FB99551C8ACA9EA7D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F3BFAD7DF41E5C73B482428C53807AD /* Pods-LibIrmakFile_Example.debug.xcconfig */;
+			baseConfigurationReference = 0F689E73706C0603A037377DD5FC8816 /* Pods-LibIrmakFile_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -905,6 +891,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		B086ABE175352794CA40B2BBDDC3F915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 507D78D44DE83B44E16791338F5AB2E1 /* LibIrmakFile.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LibIrmakFile/LibIrmakFile-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LibIrmakFile/LibIrmakFile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LibIrmakFile/LibIrmakFile.modulemap";
+				PRODUCT_MODULE_NAME = LibIrmakFile;
+				PRODUCT_NAME = LibIrmakFile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -968,40 +985,9 @@
 			};
 			name = Release;
 		};
-		D7C57FBFD1DCD388929E42E49D552D6F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 356ED434E7394B4A2667500FFFA98EA8 /* LibIrmakFile.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LibIrmakFile/LibIrmakFile-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LibIrmakFile/LibIrmakFile-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/LibIrmakFile/LibIrmakFile.modulemap";
-				PRODUCT_MODULE_NAME = LibIrmakFile;
-				PRODUCT_NAME = LibIrmakFile;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E457AC8710ED960F4AA4C685033EA917 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C57E727B8B8B58FDFC95A403D7199FE0 /* Pods-LibIrmakFile_Tests.release.xcconfig */;
+			baseConfigurationReference = 199AA173888680FA013AB622EE12081D /* Pods-LibIrmakFile_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1066,6 +1052,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F20ADAF0DE4A2BBEC7CFF6783C09926 /* Build configuration list for PBXNativeTarget "LibIrmakFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB8650D3536FE49FEEA09F9B8200DD3 /* Debug */,
+				B086ABE175352794CA40B2BBDDC3F915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		466A569E5B2426E1F7A3FCEC81CF47D1 /* Build configuration list for PBXNativeTarget "Pods-LibIrmakFile_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1098,15 +1093,6 @@
 			buildConfigurations = (
 				5638665D2B7EB94C5B5E380D1B577B07 /* Debug */,
 				E457AC8710ED960F4AA4C685033EA917 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6E9DFC747258F0CC0FEA3DB5FC471CDA /* Build configuration list for PBXNativeTarget "LibIrmakFile" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D7C57FBFD1DCD388929E42E49D552D6F /* Debug */,
-				5F1AFB150D8046BE578EEC382827F343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
