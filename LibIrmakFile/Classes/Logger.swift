@@ -8,6 +8,7 @@
 import Foundation
 import QuickLook
 import ARKit
+import Countly
 
 public class Logger : NSObject, QLPreviewControllerDataSource {
     
@@ -17,6 +18,11 @@ public class Logger : NSObject, QLPreviewControllerDataSource {
     
     public func printLog() {
         print("printLogg")
+        
+        let config: CountlyConfig = CountlyConfig()
+        config.appKey = "YOUR_APP_KEY"
+        config.host = "https://YOUR_COUNTLY_SERVER"
+        Countly.sharedInstance().start(with: config)
         
         #if DEVELOPMENT
             print("devv")

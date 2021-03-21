@@ -1,22 +1,30 @@
 {
   "name": "LibIrmakFile",
-  "version": "0.1.0",
-  "summary": "A short description of LibIrmakFile.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/10302731/LibIrmakFile",
+  "version": "0.1.7",
+  "summary": "LibIrmakFile the description.",
+  "description": "'LibIrmakFile the longest description.'",
+  "homepage": "https://github.com/irmakozonay/LibIrmakFile",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "10302731": "irmakoz@msn.com"
+    "irmakozonay": "irmakoz@msn.com"
   },
   "source": {
-    "git": "https://github.com/10302731/LibIrmakFile.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/irmakozonay/LibIrmakFile.git",
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "LibIrmakFile/Classes/**/*"
+  "swift_versions": "4.0",
+  "source_files": "LibIrmakFile/Classes/**/*",
+  "static_framework": true,
+  "dependencies": {
+    "Countly": [
+
+    ]
+  },
+  "swift_version": "4.0"
 }
