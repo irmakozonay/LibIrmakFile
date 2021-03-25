@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LibIrmakFile'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'LibIrmakFile the description.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   'LibIrmakFile the longest description.'
                        DESC
 
-  s.homepage         = 'https://github.com/irmakozonay/LibIrmakFile'
+  s.homepage         = 'https://cocoapods.org/pods/LibIrmakFile'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'irmakozonay' => 'irmakoz@msn.com' }
@@ -41,3 +41,4 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+

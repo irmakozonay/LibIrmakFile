@@ -1,6 +1,6 @@
 {
   "name": "LibIrmakFile",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "summary": "LibIrmakFile the description.",
   "description": "'LibIrmakFile the longest description.'",
   "homepage": "https://github.com/irmakozonay/LibIrmakFile",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/irmakozonay/LibIrmakFile.git",
-    "tag": "0.1.9"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "9.0"

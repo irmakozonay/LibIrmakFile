@@ -1,25 +1,16 @@
 PODS:
-  - Countly (20.11.1):
-    - Countly/Core (= 20.11.1)
-  - Countly/Core (20.11.1)
-  - LibIrmakFile (0.1.9)
+  - LibIrmakFile (0.2.0)
 
 DEPENDENCIES:
-  - Countly
   - LibIrmakFile (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - Countly
 
 EXTERNAL SOURCES:
   LibIrmakFile:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Countly: df8dcfbbb6979e6ef31f7407d61d24fcbbbdaddf
-  LibIrmakFile: 8e16ecdc9533c355a54daad59c071eddab7e32bb
+  LibIrmakFile: fe534d899ace652a77351c16589c93f9cff9f497
 
-PODFILE CHECKSUM: d0da459ed6a126ccdc904266ad819b4c9178e265
+PODFILE CHECKSUM: be17e5b0acda1bff44c8cb9323b17bb19d91a73b
 
 COCOAPODS: 1.10.1
